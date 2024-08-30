@@ -8,6 +8,6 @@ elem.forEach(function(val){
     })
     val.addEventListener('mousemove',function(dets){
         val.childNodes[3].style.left = dets.x+"px"
-        val.childNodes[3].style.top = (dets.y-100)+"px"
+        val.childNodes[3].style.top = (dets.y)+"px"
     })
 })
